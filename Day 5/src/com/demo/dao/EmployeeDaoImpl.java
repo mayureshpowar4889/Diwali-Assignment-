@@ -10,8 +10,8 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	static List<Employee> elist = new ArrayList<>();
 	
 	static {
-			elist.add(new Employee(101,"kedar","Hr"));
-			elist.add(new Employee(102,"Shruti","AI"));
+			elist.add(new Employee(101,"Mayuresh","Hr"));
+			elist.add(new Employee(102,"Shubham","AI"));
 	}
 	
 
@@ -91,3 +91,4 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	
 
 }
+
